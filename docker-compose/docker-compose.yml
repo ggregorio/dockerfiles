@@ -1,0 +1,44 @@
+version: '3'
+
+services:
+  
+  jira:
+    image: atlassian/jira-software:8.5.2
+    networks:
+      - jiranet
+    volumes:
+      - /aplicaciones/atlassian/jira/var:/var/atlassian/application-data/jira
+      #- /aplicaciones/atlassian/jira/certs:/usr/local/share/ca-certificates/jira
+      #- /aplicaciones/atlassian/jira/java/security:/opt/java/openjdk/jre/lib/security/
+      #- my-config:/opt/atlassian/jira/conf/server.xml
+      #- my-config:/opt/atlassian/etc/
+    ports:
+      - '8080:8080'
+    environment:
+      - 'ATL_JDBC_URL=jdbc:postgresql://lxsastsrv01.ar.bsch:5432/jiradb?currentSchema=public'
+      - 'ATL_DB_TYPE=postgres72'
+      - 'ATL_DB_DRIVER=org.postgresql.Driver'
+      - 'ATL_JDBC_PASSWORD=jira4321!'
+      - 'ATL_JDBC_USER=jira'
+      - 'SETENV_JVM_MINIMUM_MEMORY=4096m'
+      - 'SETENV_JVM_MAXIMUM_MEMORY=8192m'
+      - 'JVM_SUPPORT_RECOMMENDED_ARGS= -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9010 -Dcom.sun.management.jmxremote.rmi.port=9010 -Dcom.sun.management.jmxremote.local.only=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dhttps.nonProxyHosts="*.ar.bsch|jira|localhost"  -Dhttp.nonProxyHosts="*.ar.bsch|jira|localhost" -Dhttp.proxyHost=proxy.ar.bsch -Dhttp.proxyPort=8080 -Dhttps.proxyHost=proxy.ar.bsch -Dhttps.proxyPort=8080'
+      #- 'JVM_SUPPORT_RECOMMENDED_ARGS= -Dhttp.nonProxyHosts="*.ar.bsch|jira|localhost" -Dhttp.proxyHost=proxy.ar.bsch -Dhttp.proxyPort=8080 -Dhttps.proxyHost=proxy.ar.bsch -Dhttps.proxyPort=8080'
+      - 'CATALINA_OPTS= -Xmx8g -Xms4g'
+      - 'ATL_TOMCAT_SCHEME=https'
+      - 'ATL_TOMCAT_SECURE=true'
+      - 'ATL_PROXY_PORT=443'
+      - 'ATL_PROXY_NAME=jira.ar.bsch'
+      
+    logging:
+      # limit logs retained on host to 25MB
+      driver: "json-file"
+      options:
+        max-size: "500k"
+        max-file: "50"
+    restart: unless-stopped
+
+networks:
+  jiranet:
+    driver: bridge
+    
