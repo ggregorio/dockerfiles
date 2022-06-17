@@ -1,0 +1,16 @@
+Imagen base en -> https://hub.docker.com/r/jenkins/jenkins
+Jenkins en docker -> https://www.jenkins.io/doc/book/installing/docker/
+
+En cmd line de windows
+- docker build -t oracle1 . 
+(para buildear una imagen, antes pararse en la carpeta local donde tenes el dockerfile)
+
+##images
+- docker image -a
+- docker image list
+- docker rmi 'imagen'
+##container
+- docker ps -a
+- docker rm 'container'
+
+- docker exec -it fde9bab98be3 bash (para ejevutar bash de forma interactiva dentro del contenedor)

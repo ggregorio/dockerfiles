@@ -1,0 +1,178 @@
+2021/06/11 17:38:44 Starting cygwin install, version 2.908
+2021/06/11 17:38:44 User has backup/restore rights
+2021/06/11 17:38:44 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2021/06/11 17:38:44 Current Directory: C:\Users\A309626\Downloads
+2021/06/11 17:38:50 source: network install
+2021/06/11 17:39:17 mbox yesno: You should not choose a root path that include spaces in directory names.  Proceed anyway?
+2021/06/11 17:39:23 root: c:\Program Files\cygwin64 system
+2021/06/11 17:39:26 Selected local directory: C:\Users\A309626\Downloads
+2021/06/11 17:39:28 net: Preconfig
+2021/06/11 17:39:36 site: http://mirrors.163.com/cygwin/
+2021/06/11 17:39:44 HTTP status 403 fetching http://mirrors.163.com/cygwin/x86_64/setup.zst.sig
+2021/06/11 17:39:44 HTTP status 403 fetching http://mirrors.163.com/cygwin/x86_64/setup.zst
+2021/06/11 17:39:44 HTTP status 403 fetching http://mirrors.163.com/cygwin/x86_64/setup.xz.sig
+2021/06/11 17:39:44 HTTP status 403 fetching http://mirrors.163.com/cygwin/x86_64/setup.xz
+2021/06/11 17:39:44 HTTP status 403 fetching http://mirrors.163.com/cygwin/x86_64/setup.bz2.sig
+2021/06/11 17:39:44 HTTP status 403 fetching http://mirrors.163.com/cygwin/x86_64/setup.bz2
+2021/06/11 17:39:45 HTTP status 403 fetching http://mirrors.163.com/cygwin/x86_64/setup.ini.sig
+2021/06/11 17:39:45 HTTP status 403 fetching http://mirrors.163.com/cygwin/x86_64/setup.ini
+2021/06/11 17:39:45 mbox note: Unable to get setup from <http://mirrors.163.com/cygwin/>
+2021/06/11 17:40:00 source: download
+2021/06/11 17:40:01 Selected local directory: C:\Users\A309626\Downloads
+2021/06/11 17:40:05 net: Preconfig
+2021/06/11 17:40:20 site: http://mirror.team-cymru.com/cygwin/
+2021/06/11 17:40:34 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2021/06/11 17:40:34 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2021/06/11 17:40:40 solving: 37 tasks, update: yes, use test packages: no
+2021/06/11 17:40:43 solving: 74 tasks, update: no, use test packages: no
+2021/06/11 17:40:43 Augmented Transaction List:
+2021/06/11 17:40:43    0 install base-cygwin     3.8-1          
+2021/06/11 17:40:43    1 install cygwin          3.2.0-1        
+2021/06/11 17:40:43    2 install libpopt-common  1.18-1         
+2021/06/11 17:40:43    3 install terminfo        6.1-1.20190727 
+2021/06/11 17:40:43    4 install tzdata          2021a-1        
+2021/06/11 17:40:43    5 install zlib0           1.2.11-1       
+2021/06/11 17:40:43    6 install which           2.20-2         
+2021/06/11 17:40:43    7 install run             1.3.4-2        
+2021/06/11 17:40:43    8 install mintty          3.5.0-1        
+2021/06/11 17:40:43    9 install login           1.13-1         
+2021/06/11 17:40:43   10 install libtasn1_6      4.14-1         
+2021/06/11 17:40:43   11 install libsigsegv2     2.10-2         
+2021/06/11 17:40:43   12 install libpipeline1    1.5.3-1        
+2021/06/11 17:40:43   13 install libpcre2_8_0    10.37-1        
+2021/06/11 17:40:43   14 install libpcre1        8.44-2         
+2021/06/11 17:40:43   15 install liblzma5        5.2.4-1        
+2021/06/11 17:40:43   16 install liblz4_1        1.7.5-1        
+2021/06/11 17:40:43   17 install libiconv2       1.16-2         
+2021/06/11 17:40:43   18 install libgmp10        6.2.1-1        
+2021/06/11 17:40:43   19 install libgcc1         10.2.0-1       
+2021/06/11 17:40:43   20 install libffi6         3.2.1-2        
+2021/06/11 17:40:43   21 install libbz2_1        1.0.8-1        
+2021/06/11 17:40:43   22 install libargp         20110921-3     
+2021/06/11 17:40:43   23 install ipc-utils       1.0-2          
+2021/06/11 17:40:43   24 install hostname        3.13-1         
+2021/06/11 17:40:43   25 install editrights      1.03-1         
+2021/06/11 17:40:43   26 install dash            0.5.9.1-1      
+2021/06/11 17:40:43   27 install terminfo-extra  6.1-1.20190727 
+2021/06/11 17:40:43   28 install libintl8        0.19.8.1-2     
+2021/06/11 17:40:43   29 install libstdc++6      10.2.0-1       
+2021/06/11 17:40:43   30 install libmpfr6        4.1.0-1        
+2021/06/11 17:40:43   31 install file            5.39-1         
+2021/06/11 17:40:43   32 install getent          2.18.90-4      
+2021/06/11 17:40:43   33 install _autorebase     001007-1       
+2021/06/11 17:40:43   34 install libncursesw10   6.1-1.20190727 
+2021/06/11 17:40:43   35 install sed             4.4-1          
+2021/06/11 17:40:43   36 install libuuid1        2.33.1-2       
+2021/06/11 17:40:43   37 install libsmartcols1   2.33.1-2       
+2021/06/11 17:40:43   38 install libpopt0        1.18-1         
+2021/06/11 17:40:43   39 install libp11-kit0     0.23.20-1      
+2021/06/11 17:40:43   40 install libgdbm6        1.18.1-1       
+2021/06/11 17:40:43   41 install libattr1        2.4.48-2       
+2021/06/11 17:40:43   42 install diffutils       3.5-2          
+2021/06/11 17:40:43   43 install alternatives    1.3.30c-10     
+2021/06/11 17:40:43   44 install vim-minimal     8.2.0486-1     
+2021/06/11 17:40:43   45 install ncurses         6.1-1.20190727 
+2021/06/11 17:40:43   46 install libreadline7    7.0.3-3        
+2021/06/11 17:40:43   47 install less            581.2-1        
+2021/06/11 17:40:43   48 install info            6.7-1          
+2021/06/11 17:40:43   49 install libblkid1       2.33.1-2       
+2021/06/11 17:40:43   50 install cygutils        1.4.16-2       
+2021/06/11 17:40:43   51 install p11-kit-trust   0.23.20-1      
+2021/06/11 17:40:43   52 install p11-kit         0.23.20-1      
+2021/06/11 17:40:43   53 install gawk            5.1.0-1        
+2021/06/11 17:40:43   54 install coreutils       8.26-2         
+2021/06/11 17:40:43   55 install libfdisk1       2.33.1-2       
+2021/06/11 17:40:43   56 install bash            4.4.12-3       
+2021/06/11 17:40:43   57 install util-linux      2.33.1-2       
+2021/06/11 17:40:43   58 install tzcode          2021a-1        
+2021/06/11 17:40:43   59 install zstd            1.5.0-1        
+2021/06/11 17:40:43   60 install xz              5.2.4-1        
+2021/06/11 17:40:43   61 install gzip            1.8-1          
+2021/06/11 17:40:43   62 install groff           1.22.4-1       
+2021/06/11 17:40:43   63 install grep            3.0-2          
+2021/06/11 17:40:43   64 install findutils       4.6.0-1        
+2021/06/11 17:40:43   65 install crypto-policies 20190218-1     
+2021/06/11 17:40:43   66 install ca-certificates 2.40-1         
+2021/06/11 17:40:43   67 install bzip2           1.0.8-1        
+2021/06/11 17:40:43   68 install man-db          2.9.4-1        
+2021/06/11 17:40:43   69 install rebase          4.5.0-1        
+2021/06/11 17:40:43   70 install base-files      4.3-3          
+2021/06/11 17:40:43   71 install libssl1.1       1.1.1f-1       
+2021/06/11 17:40:43   72 install tar             1.34-1         
+2021/06/11 17:40:43   73 install openssl         1.1.1f-1       
+2021/06/11 17:40:46 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2021/06/11 17:40:53 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.2.0-1.tar.xz
+2021/06/11 17:40:53 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.18-1.tar.xz
+2021/06/11 17:40:54 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.1-1.20190727.tar.xz
+2021/06/11 17:40:55 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2021a-1.tar.xz
+2021/06/11 17:40:55 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.2.11-1.tar.xz
+2021/06/11 17:40:55 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2021/06/11 17:40:56 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2021/06/11 17:40:59 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.5.0-1.tar.xz
+2021/06/11 17:40:59 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz
+2021/06/11 17:40:59 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2021/06/11 17:41:00 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2021/06/11 17:41:00 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.3-1.tar.xz
+2021/06/11 17:41:01 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.37-1.tar.zst
+2021/06/11 17:41:02 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/pcre/libpcre1/libpcre1-8.44-2.tar.xz
+2021/06/11 17:41:02 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.4-1.tar.xz
+2021/06/11 17:41:02 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.7.5-1.tar.xz
+2021/06/11 17:41:04 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.16-2.tar.xz
+2021/06/11 17:41:05 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.2.1-1.tar.xz
+2021/06/11 17:41:06 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-10.2.0-1.tar.xz
+2021/06/11 17:41:06 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2021/06/11 17:41:06 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2021/06/11 17:41:07 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/libargp/libargp-20110921-3.tar.xz
+2021/06/11 17:41:07 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.0-2.tar.bz2
+2021/06/11 17:41:07 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2021/06/11 17:41:08 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.03-1.tar.xz
+2021/06/11 17:41:08 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.9.1-1.tar.xz
+2021/06/11 17:41:09 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/ncurses/terminfo-extra/terminfo-extra-6.1-1.20190727.tar.xz
+2021/06/11 17:41:09 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.19.8.1-2.tar.xz
+2021/06/11 17:41:12 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-10.2.0-1.tar.xz
+2021/06/11 17:41:17 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.1.0-1.tar.xz
+2021/06/11 17:41:20 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/file/file-5.39-1.tar.xz
+2021/06/11 17:41:20 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-4.tar.xz
+2021/06/11 17:41:20 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001007-1.tar.xz
+2021/06/11 17:41:21 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.1-1.20190727.tar.xz
+2021/06/11 17:41:22 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/sed/sed-4.4-1.tar.xz
+2021/06/11 17:41:22 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-2.tar.xz
+2021/06/11 17:41:23 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-2.tar.xz
+2021/06/11 17:41:23 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.18-1.tar.xz
+2021/06/11 17:41:24 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+2021/06/11 17:41:24 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+2021/06/11 17:41:25 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.4.48-2.tar.xz
+2021/06/11 17:41:27 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.5-2.tar.xz
+2021/06/11 17:41:29 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2021/06/11 17:41:32 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.2.0486-1.tar.xz
+2021/06/11 17:41:33 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.1-1.20190727.tar.xz
+2021/06/11 17:41:35 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-7.0.3-3.tar.xz
+2021/06/11 17:41:37 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/less/less-581.2-1.tar.xz
+2021/06/11 17:41:39 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/texinfo/info/info-6.7-1.tar.xz
+2021/06/11 17:41:40 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-2.tar.xz
+2021/06/11 17:41:41 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.16-2.tar.xz
+2021/06/11 17:41:41 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+2021/06/11 17:41:42 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+2021/06/11 17:41:46 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.1.0-1.tar.xz
+2021/06/11 17:41:54 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-8.26-2.tar.xz
+2021/06/11 17:41:55 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-2.tar.xz
+2021/06/11 17:42:01 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2021/06/11 17:42:06 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.33.1-2.tar.xz
+2021/06/11 17:42:06 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2021a-1.tar.xz
+2021/06/11 17:42:08 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/zstd/zstd-1.5.0-1.tar.zst
+2021/06/11 17:42:09 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/xz/xz-5.2.4-1.tar.xz
+2021/06/11 17:42:10 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.8-1.tar.xz
+2021/06/11 17:42:20 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/groff/groff-1.22.4-1.tar.xz
+2021/06/11 17:42:22 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/grep/grep-3.0-2.tar.xz
+2021/06/11 17:42:24 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.6.0-1.tar.xz
+2021/06/11 17:42:25 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2021/06/11 17:42:27 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2.40-1.tar.xz
+2021/06/11 17:42:28 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2021/06/11 17:42:32 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.9.4-1.tar.zst
+2021/06/11 17:42:33 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.5.0-1.tar.xz
+2021/06/11 17:42:33 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+2021/06/11 17:42:37 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1f-1.tar.xz
+2021/06/11 17:42:41 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/tar/tar-1.34-1.tar.zst
+2021/06/11 17:42:44 Downloaded C:\Users\A309626\Downloads/http%3a%2f%2fmirror.team-cymru.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1f-1.tar.xz
+2021/06/11 17:43:10 note: Download Complete
+2021/06/11 17:43:10 Ending cygwin install
